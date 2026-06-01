@@ -16,9 +16,9 @@ The video you linked is Luke Barousse's beginner Databricks project; your plan e
 
 **Phase 0 — Accounts and free tiers.** Create an AWS account (free tier: Lambda 1M requests/month always-free, S3 5 GB, EventBridge scheduled rules free) and a Databricks Free Edition account. Free Edition is the one that matters — it bundles serverless compute, Unity Catalog, Workflows, Databricks SQL, and MLflow, so it covers everything from bronze through the dashboard and the model. The old "Community Edition" is being retired; sign up for Free Edition specifically. AWS only does ingestion here (fetch + store), which keeps you inside free limits.
 
-**Phase 1 — Ingestion (AWS).** Write a small Lambda that calls the MyVaccination API and drops the raw JSON into S3 under a date-partitioned prefix (`raw/vax_malaysia/dt=2024-01-01/data.json`). Trigger it on an EventBridge cron (e.g. daily). Keep the Lambda dumb — no transformation, just fetch and store. That preserves a true raw layer you can always replay from.
+**Phase 1 — Ingestion (AWS).** Write a small Lambda that calls the MyVaccination API and drops the raw JSON into S3 under a date-partitioned prefix (`raw/vax_malaysia/XXXXXX`). Trigger it on an EventBridge cron (e.g. daily). Keep the Lambda dumb — no transformation, just fetch and store. That preserves a true raw layer you can always replay from.
 
-**Phase 2 — Bronze (R + sparklyr).** In Databricks, mount or read the S3 path and load the JSON into a Delta table exactly as-is using `sparklyr` (`spark_read_json`). No cleaning. Bronze is your immutable record of what the API returned.
+**Phase 2 — Bronze (R + sparklyr).** In Databricks, mount or read the S3 path and load the JSON into a Delta table exactly as-is using `sparklyr` (`spark_read__XXXX_json`). No cleaning. Bronze is your immutable record of what the API returned.
 
 **Phase 3 — Silver (R + sparklyr).** Cast `date` to a real date type, cast all dose counts to integers, drop duplicates, and split national-level vs state-level rows into separate tables. This is where you also unpivot the brand columns (Pfizer/Sinovac/Astra/Cansino) into tidy long form, which sets up the `dim_vaccine` join later.
 
