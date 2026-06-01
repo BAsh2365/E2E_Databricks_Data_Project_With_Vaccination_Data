@@ -27,8 +27,8 @@ Malaysia's COVID-19 vaccination data, published by the **Special Committee for E
 **MLflow / AutoML forecasting experiment**
 ![MLflow experiment](Databricks_Screenshots/Databricks%20Model%20runs%20Auto%20ML.png)
 
-**Best model run (ARIMA) — time series**
-![ARIMA Time Series Run](Databricks_Screenshots/Best%20Model%20run%20(ARIMA)%20time%20series.png)
+**Best model run: ARIMA time series**
+![ARIMA Time Series Run](AutoML/ARIMA_results.png)
 
 ## Resources that helped/aided in the project development ##
 
