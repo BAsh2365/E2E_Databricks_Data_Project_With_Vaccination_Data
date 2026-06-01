@@ -62,7 +62,7 @@ Malaysia's COVID-19 vaccination data, published by the **Special Committee for E
 
 
 
-**With all of that being said, for my first E2E Data project, this was a lot of fun! Continuing to learn as I go along :). If you have any pointers/feedback, or suggestions, please let me know!**
+**With that being said, for my first E2E Data project, this was a lot of fun! Continuing to learn as I go along :). If you have any pointers/feedback, or suggestions, please let me know!**
 
 <img width="480" height="264" alt="image" src="https://github.com/user-attachments/assets/b2efe968-e1c5-4d47-8a03-6e6d23190293" />
 
