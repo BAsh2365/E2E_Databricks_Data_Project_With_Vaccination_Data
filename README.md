@@ -19,18 +19,16 @@ Malaysia's COVID-19 vaccination data, published by the **Special Committee for E
 ## Screenshots
 
 **Databricks Workspace with Data tables (pyspark tables)**
-![Catalog tables](Databricks_Screenshots/Workspace Databricks.png)
+![Catalog tables](Databricks_Screenshots/Workspace%20Databricks.png)
 
 **Workflow run ELT (bronze → silver → gold)**
 ![Workflow run](Databricks_Screenshots/Databricks_ELT_Orchestration.png)
 
-**SQL dashboard**
-![Dashboard](Malaysia COVID Vaccination Data Dashboard 2026-06-01 04_32.pdf)
-
 **MLflow / AutoML forecasting experiment**
-![MLflow experiment](Databricks_Screenshots/Databricks Model runs Auto ML.png)
-![ARIMA Time Series Run](Databricks_Screenshots/Best Model run (ARIMA) time series.png)
+![MLflow experiment](Databricks_Screenshots/Databricks%20Model%20runs%20Auto%20ML.png)
 
+**Best model run (ARIMA) — time series**
+![ARIMA Time Series Run](Databricks_Screenshots/Best%20Model%20run%20(ARIMA)%20time%20series.png)
 
 ## Resources that helped in the project ##
 
