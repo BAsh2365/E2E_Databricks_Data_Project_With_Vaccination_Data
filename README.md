@@ -30,7 +30,7 @@ Malaysia's COVID-19 vaccination data, published by the **Special Committee for E
 **Best model run (ARIMA) — time series**
 ![ARIMA Time Series Run](Databricks_Screenshots/Best%20Model%20run%20(ARIMA)%20time%20series.png)
 
-## Resources that helped in the project ##
+## Resources that helped/aided in the project development ##
 
 - https://www.databricks.com/databricks-documentation
 
