@@ -28,8 +28,6 @@ Malaysia's COVID-19 vaccination data, published by the **Special Committee for E
 **MLflow / AutoML forecasting experiment**
 ![MLflow experiment](Databricks_Screenshots/Databricks%20Model%20runs%20Auto%20ML.png)
 
-**Best model run: ARIMA time series (Accuracy in predicting daily vaccination rates given vaccine data)**
-![ARIMA Time Series Run](AutoML/ARIMA_results.png)
 
 ## Resources that helped/aided in the project development ##
 
