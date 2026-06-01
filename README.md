@@ -3,7 +3,7 @@ Created an End-to-end Databricks Project using AWS functions, Databricks workflo
 
 ## Architecture
 
-![Architecture diagram](Databricks_E2E_Data_Project.jpeg)
+![Architecture diagram](Databricks_E2E_Data_Project_Final.jpeg)
 
 **MyVaccination CSV (Git Repo) → AWS EventBridge -> Lambda config -> IAM-> → S3 → Databricks Catalog → Bronze → Silver → Gold -> Extra Data -> → SQL Dashboard + MLflow AutoML model runs Forecast**
 
