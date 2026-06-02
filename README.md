@@ -29,7 +29,7 @@ Malaysia's COVID-19 vaccination data, published by the **Special Committee for E
 ![MLflow experiment](Databricks_Screenshots/Databricks%20Model%20runs%20Auto%20ML.png)
 
 
-## Resources that helped/aided in the project development ##
+## Resources that helped/aided in project development ##
 
 - https://www.databricks.com/databricks-documentation
 
