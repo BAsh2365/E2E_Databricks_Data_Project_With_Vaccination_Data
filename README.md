@@ -50,9 +50,9 @@ Malaysia's COVID-19 vaccination data, published by the **Special Committee for E
 
 ## What to improve for next time ##
 
-- Adjust AutoML Train/Test/Split to Prevent Overfitting
+- Adjust AutoML Train/Test/Split to Prevent Overfitting for some models.
 
-- Create my own ML model with MLFlow (XGBoost, Time Series, etc.)
+- Create my own ML model with MLFlow (XGBoost, Logistic Regression for checking/predicting daily vaccinations, etc.)
 
 - Pick a larger dataset for more data processing techniques with PySpark (Parquet Coalesce, Batching, etc.)
 
