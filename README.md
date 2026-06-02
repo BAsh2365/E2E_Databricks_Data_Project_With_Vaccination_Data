@@ -1,6 +1,6 @@
 # E2E_Databricks_Data_Project_With_Vaccination_Data
 
-Created an End-to-end Databricks Project using AWS Lambda, S3, and EventBridge triggers, Databricks orchestration workflows, PySpark (medalion architecture), SQL, and Databricks AutoML (Covering Data Engineering, Data Analytics, and Data Science/ML)
+Created an End-to-end Databricks Project using AWS Lambda, S3, and EventBridge triggers, Databricks orchestration workflows, PySpark (medallion architecture), SQL, and Databricks AutoML (Covering Data Engineering, Data Analytics, and Data Science/ML)
 
 ## Architecture
 
