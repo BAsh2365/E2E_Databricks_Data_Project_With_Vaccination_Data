@@ -6,7 +6,7 @@ Created an End-to-end Databricks Project using AWS Lambda, S3, and EventBridge t
 
 ![Architecture diagram](Databricks_E2E_Data_Project_Final.jpeg)
 
-**MyVaccination CSV (Git Repo) -> AWS EventBridge -> Lambda config -> IAM → S3 -> Databricks Catalog -> Medallion Architecture -> Bronze -> Silver -> Gold -> Extra Data -> SQL Dashboard + MLflow AutoML model runs Forecast**
+** Malaysia Vaccine Data CSV (Git Repo) -> AWS EventBridge -> Lambda config -> IAM → S3 -> Databricks Catalog -> Medallion Architecture -> Bronze -> Silver -> Gold -> Extra Data -> SQL Dashboard + MLflow AutoML model runs Forecast**
 
 
 ## Data sources
