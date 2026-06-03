@@ -62,7 +62,7 @@ Malaysia's COVID-19 vaccination data, published by the **Special Committee for E
 
 - Use a sandbox environment for queries, ML (lazyPredict, sci-kit Learn, Imblearn, etc.) before going back into Databricks
 
-- If I were to expand this project into multiple countries/regions that have COVID data in multiple places/formats, I could make use of tools like Dagster/Apache Airflow to organize and orchestrate the data into databricks with scheduled workflows and conditions.
+- If I were to expand this project into multiple countries/regions that have COVID data in multiple places/formats, I could make use of tools like Dagster/Apache Airflow to organize and orchestrate the data into databricks with scheduled workflows and conditions (layered architecture explanation article here: https://dagster.io/blog/unlocking-the-full-value-of-your-databricks).
 
 **With that being said, for my first E2E Data project, this was a lot of fun! Continuing to learn as I go along :). If you have any pointers/feedback, or suggestions, please let me know!**
 
