@@ -64,7 +64,9 @@ Malaysia's COVID-19 vaccination data, published by the **Special Committee for E
 
 - If I were to expand this project into multiple countries/regions that have COVID data in multiple places/formats, I could make use of tools like Dagster/Apache Airflow to organize and orchestrate the data into databricks with scheduled workflows and conditions (layered architecture explanation article here: https://dagster.io/blog/unlocking-the-full-value-of-your-databricks).
 
-**With that being said, for my first E2E Data project, this was a lot of fun! Continuing to learn as I go along :). If you have any pointers/feedback, or suggestions, please let me know!**
+- Using AutoLoader for larger fole uploads in a real world production environment.
+
+**With that being said, for my first E2E Data project in Databricks, this was a lot of fun! Continuing to learn as I go along :). This is just the beginning. If you have any pointers/feedback, or suggestions, please let me know!**
 
 <img width="480" height="264" alt="image" src="https://github.com/user-attachments/assets/b2efe968-e1c5-4d47-8a03-6e6d23190293" />
 
