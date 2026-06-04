@@ -47,7 +47,7 @@ Malaysia's COVID-19 vaccination data, published by the **Special Committee for E
 
 - Thomas Hass (Extra resources for understanding data warehouse concepts and production schema configurations for reliable pipelines): https://youtu.be/gFAnlTM-3Zo, goes over slowly changing dimensions, dlt, change data tracking, etc. Not needed for this smaller project but useful for learning.
 
-- AI usage (Claude Opus 4.8 and Genie Code, used as a coding companion with some simple autocompletes. More info in the AI log)
+- AI usage (Claude Opus 4.8 and Genie Code, used as a coding/planning companion with some simple autocompletes from genie code. More info in the AI log + architetcure diagram notes)
 
 - Personal Databricks Accreditation training (Databricks Academy): https://credentials.databricks.com/8ea7c79a-5f53-417e-ae4d-7f5fcac558fc#acc.Py7W3Qc1, https://credentials.databricks.com/f7e524a8-41f9-4d23-b4a6-0961f2dab3e8#acc.VHsAG98K
 
