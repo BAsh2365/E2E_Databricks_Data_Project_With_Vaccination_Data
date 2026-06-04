@@ -66,6 +66,11 @@ Malaysia's COVID-19 vaccination data, published by the **Special Committee for E
 
 - Using AutoLoader for larger file uploads in a real world production environment.
 
+Underatsnding how data flows from its raw format up to hsing the data for analysis and predicitve modeling is crucial in the current data landscape.
+In a production environment, it is important to understand the underlying concepts of workflow orchestration, enterprise data practices, and data parallelism with large compute clusters (i.e. functions for data partitioning, using repartition (increasing the # of partitions for unbalanced data)  or coalese (reducing the number of partitions for reducing output/runtime) and specifically understanding why we do that).
+This project is supposed to be an introduction to databricks, and understanding all areas of enterprise data, with big data processing/analytics in PySpark. 
+
+
 **With that being said, for my first E2E Data project in Databricks, this was a lot of fun! Continuing to learn as I go along :). This is just the beginning. If you have any pointers/feedback, or suggestions, please let me know!**
 
 <img width="480" height="264" alt="image" src="https://github.com/user-attachments/assets/b2efe968-e1c5-4d47-8a03-6e6d23190293" />
