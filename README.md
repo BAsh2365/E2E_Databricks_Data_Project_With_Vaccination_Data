@@ -62,13 +62,13 @@ Malaysia's COVID-19 vaccination data, published by the **Special Committee for E
 
 - Use a sandbox environment for queries, ML (lazyPredict, sci-kit Learn, Imblearn, etc.) before going back into Databricks
 
-- If I were to expand this project into multiple countries/regions that have COVID data in multiple places/formats, I could make use of tools like Dagster/Apache Airflow to organize and orchestrate the data into databricks with scheduled workflows and conditions (layered architecture explanation article here: https://dagster.io/blog/unlocking-the-full-value-of-your-databricks).
+- If I were to expand this project into multiple countries/regions that have COVID data in multiple places/formats, I could make use of tools like Dagster/Apache Airflow to organize and orchestrate the data into Databricks with scheduled workflows and conditions (layered architecture explanation article here: https://dagster.io/blog/unlocking-the-full-value-of-your-databricks).
 
-- Using AutoLoader for larger file uploads in a real world production environment.
+- Using AutoLoader for larger file uploads in a real-world production environment.
 
-Understanding how data flows, from its raw format to using the cleaned and filtered data, for analysis and predicitve modeling is crucial in the current data landscape.
+Understanding how data flows, from its raw format to using the cleaned and filtered data, for analysis and predictive modeling, is crucial in the current data landscape.
 In a production environment, it is important to understand the underlying concepts of workflow orchestration, enterprise data practices, and data parallelism with large compute clusters (i.e. functions for data partitioning, using repartition (increasing the # of partitions for unbalanced data)  or coalese (reducing the number of partitions for reducing output/runtime) and specifically understanding why we do that, how the cores are being used for each worker node, etc.).
-This project is supposed to be an introduction to databricks, and understanding all areas of enterprise data, with big data processing/analytics in PySpark + SQL and a light introduction to ML modeling with seeverless compute (AutoML).
+This project is supposed to be an introduction to Databricks, and understanding all areas of enterprise data, with big data processing/analytics in PySpark + SQL, and a light introduction to ML modeling with serverless compute (AutoML).
 
 
 **With that being said, for my first E2E Data project in Databricks, this was a lot of fun! Continuing to learn as I go along :). This is just the beginning. If you have any pointers/feedback, or suggestions, please let me know!**
