@@ -37,7 +37,7 @@ Malaysia's COVID-19 vaccination data, published by the **Special Committee for E
   
 - Alex the Analyst (SQL and Databricks overview): https://youtu.be/OT1RErkfLNQ?si=AtltqiVrrCHNxIAI, https://youtu.be/jegmI_hSx84?si=g74QBJ0BdNY7veCb, https://www.youtube.com/@AlexTheAnalyst (His Entire Databricks Series is helpful! His Entire Youtube Channel is helpful!)
 
-- More SQL: https://www.thedataschool.co.uk/le-luu/order-of-operations-and-order-of-execution-in-sql/, https://www.datacamp.com/cheat-sheet/sql-basics-cheat-sheet
+- More SQL: https://www.thedataschool.co.uk/le-luu/order-of-operations-and-order-of-execution-in-sql/, https://www.datacamp.com/cheat-sheet/sql-basics-cheat-sheet, https://www.sisense.com/blog/sql-query-order-of-operations/
 
 - Luke Bryne | AI Coding (Project Orchestration): https://youtu.be/zIS_ssTQmO0?si=M_6kjVj8T243pqmf, https://www.youtube.com/@ai-luke (Gave me the idea and the "spark" to start this project)
 
