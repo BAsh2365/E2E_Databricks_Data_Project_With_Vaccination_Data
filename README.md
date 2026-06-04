@@ -45,7 +45,7 @@ Malaysia's COVID-19 vaccination data, published by the **Special Committee for E
 
 - freeCodeCamp.org (PySpark guidelines): https://youtu.be/_C8kWso4ne4?si=UZceG9zzfveq7RcI Good for understanding PySpark, Data Transformations with filter, map, etc.)
 
-- Thomas Hass (Extra resources for understanding data warehouse concepts and production schema configurations for reliable pipelines): https://youtu.be/gFAnlTM-3Zo (goes over slowly changing dimensions, dlt, change data tracking, etc. Not needed for this smaller project but useful for learning).
+- Thomas Hass (Extra resources for understanding data warehouse concepts and production schema configurations for reliable pipelines): https://youtu.be/gFAnlTM-3Zo, goes over slowly changing dimensions, dlt, change data tracking, etc. Not needed for this smaller project but useful for learning.
 
 - AI usage (Claude Opus 4.8 and Genie Code, used as a coding companion with some simple autocompletes. More info in the AI log)
 
